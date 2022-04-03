@@ -1,8 +1,13 @@
-# Getting Started with Create React App
+# Camera Mania
+Live site [Click Here]().
+## Features This Website
+* Graph Chart
+
+### Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+### Available Scripts
 
 In the project directory, you can run:
 
