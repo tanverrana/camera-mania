@@ -1,0 +1,26 @@
+.camera{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 30px;
+}
+.camera-left{
+    margin-top: 70px;
+    margin-left: 30px;
+    text-align: center;
+    align-items: center;
+}
+.camera-left h1{
+    font-size: 48px;
+    color: tomato;
+}
+.live-btn{
+    padding: 12px 30px;
+    background-color: tomato;
+    color: white;
+    border: none;
+    font-weight: bold;
+    border-radius: 10px;
+}
+.live-btn:hover{
+    background-color: black;
+}
