@@ -1,7 +1,10 @@
 # Camera Mania
-Live site [Click Here]().
+Live site [Click Here](https://react-camera-mania.netlify.app/).
 ## Features This Website
-* Graph Chart
+* Customer Review
+* Routing added
+* Page path change without reload.
+* Line chart and pie chart
 
 ### Getting Started with Create React App
 
