@@ -7,7 +7,7 @@ const Reviews = () => {
     const [reviews, setReviews] = useReviews([]);
     return (
         <div>
-            <h2>Customer Reviews:{reviews.length}</h2>
+            <h1>What our customer say!</h1>
             <div className="reviews-container">
 
                 {

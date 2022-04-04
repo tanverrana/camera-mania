@@ -4,3 +4,7 @@
     grid-template-columns: repeat(3,1fr);
     gap: 25px;
 }
+h1{
+    text-align: center;
+    color: orangered;
+}

@@ -6,7 +6,7 @@ const Review = (props) => {
     return (
         <div>
             <div className="review-container">
-                <h4>{name}</h4>
+                <h3>{name}</h3>
                 <p>{review}</p>
                 <h4>Rating: {ratings} star</h4>
             </div>

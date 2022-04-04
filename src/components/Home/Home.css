@@ -24,9 +24,22 @@
 .live-btn:hover{
     background-color: black;
 }
+.customer-review h1{
+    color: orangered;
+    margin-top: 15px;
+    text-align: center;
+    font-size: 30px;
+}
 .home-container{
     margin: 20px;
     display: grid;
     grid-template-columns: repeat(3,1fr);
     gap: 25px;
+}
+.home-container h2{
+    text-align: center;
+}
+.see-more-btn{
+    text-align: center;
+    margin: 20px;
 }

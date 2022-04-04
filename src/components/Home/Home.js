@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import useReviews from '../../Hooks/useReviews';
 import Review from '../Review/Review';
 import "./Home.css";
@@ -19,12 +20,22 @@ const Home = () => {
                 </div>
 
             </div>
-            <div className="home-container">
-                {
-                    reviews.map(review => <Review key={review.id} review={review}></Review>)
 
-                }
-            </div>
+            <section>
+                <div className="customer-review">
+                    <h1>Customer Reviews(3)</h1>
+                </div>
+                <div className="home-container">
+
+                    {
+                        reviews.map(review => <Review key={review.id} review={review}></Review>)
+
+                    }
+                </div>
+                <div className="see-more-btn">
+                    <Link to="/reviews"><button className="live-btn">See All Reviews</button></Link>
+                </div>
+            </section>
         </div>
     );
 };
