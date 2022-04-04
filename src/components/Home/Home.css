@@ -24,3 +24,9 @@
 .live-btn:hover{
     background-color: black;
 }
+.home-container{
+    margin: 20px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 25px;
+}

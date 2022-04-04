@@ -1,8 +1,10 @@
 import React from 'react';
-import Reviews from '../Reviews/Reviews';
+import useReviews from '../../Hooks/useReviews';
+import Review from '../Review/Review';
 import "./Home.css";
 
 const Home = () => {
+    const [reviews, setReviews] = useReviews()
     return (
         <div>
             <div className="camera">
@@ -17,7 +19,12 @@ const Home = () => {
                 </div>
 
             </div>
-            <Reviews></Reviews>
+            <div className="home-container">
+                {
+                    reviews.map(review => <Review key={review.id} review={review}></Review>)
+
+                }
+            </div>
         </div>
     );
 };
