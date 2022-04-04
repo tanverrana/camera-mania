@@ -1,0 +1,9 @@
+.question-answer{
+    margin: 0 10%;
+}
+.question-answer h1{
+    text-align: center;
+    color: orange;
+    font-size: 45px;
+    text-decoration: underline;
+}
